@@ -126,3 +126,67 @@ tapply(incomes, state, mean)
 
 # Chapter 5: Arrays and matrices
 
+# Generate arrays specifying values and dimensions
+x <- array(1:20, dim=c(4,5))
+
+# Negative indices are NOT allowed
+# NA and zero values are allowed
+
+# The array() function
+Z <- array(data_vector, dim_vector)
+
+# Example
+Z <- array(h, dim=c(3,4,2))
+
+# If h = 24 is the same as Z <- h ; dim(Z) <- c(3,4,2)
+# Else, it will recycle from the beginning of h
+
+# Matrixes
+T()     returns the matrix transpose
+nrow()  returns the number of rows
+ncol()  returns the number of columns
+
+# Matrix multiplication
+A * B   if A and B are square matr of same size
+A %*% B is the matrix of element by element products
+
+# Chapter 6: Lists and data frames
+Object consisting of  an ordered collection of components
+Not necessarily of the same mode/type
+Components are always numbered
+
+Lst <- list(name="Fred", wife="Mary", no.children=3,
+            child.ages=c(4,7,9))
+
+Lst[[1]]       # returns value of Lst at index 1
+length(Lst)    # returns number of high level components
+Lst$wife       # returns value associated with 'wife'
+
+# Data Frames
+data.frame()   # creates a data frame
+as.data.frame()# coerces a suitable list in a data frame
+
+# attach() and detach()
+attach() allows to use variables from the data frame 
+         without referencing the df
+detach() reverts the above to default
+
+# Example
+df_example <- data.frame(job=carpenter, income=decent)
+attach(df_example) 
+job, income    #can be used directly instead of 
+               # df_example$job & df_example$income
+
+# Chapter 7: Reading data from files
+
+read.table() # has simple but specific requirements
+
+1. Columns should be labeled on first line
+2. Rows should be labeled on first column (can be omitted)
+
+# R has built-in datasets (Cool!) that can be used to practice
+data()
+
+# Datasets can also be loaded from other packages
+data(package="rpart")
+data(Puromycin, package = "datasets")
