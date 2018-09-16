@@ -1,7 +1,7 @@
 
 # Dimensional Consumer Data: Brand Ratings
 # load the data
-brand.ratings <- read.csv("rintro-chapter8.csv")
+brand.ratings <- read.csv("Brand_Ratings.csv")
 
 # check it out
 head(brand.ratings)

@@ -19,7 +19,7 @@ log(0.88 / (1-0.88))   # moderate high likelihood
 qlogis(0.88)           # equivalent to hand computation
 
 # season pass data
-pass.df <- read.csv("rintro-chapter9.csv")
+pass.df <- read.csv("Data_Pass.csv")
 summary(pass.df)
 str(pass.df)
 
