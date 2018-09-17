@@ -36,4 +36,4 @@ Collection of R code, notes and datasets sorted by topic.
 
 * **A (very) short introduction to R**: Notes for the [Introduction to R](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf) written by Paul Torfs & Claudia Brauer (2014).
 
-* **An introduction to R**: Notes for the [R Documentation](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf) by the R Core Team. 
+* **An introduction to R**: Notes for the Official [R Documentation](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf) written by the R Core Team. 
