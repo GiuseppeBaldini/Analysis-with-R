@@ -32,7 +32,7 @@ Collection of R code, notes and datasets sorted by topic.
 
 ## Notes
 
-* **R Notes**: Notes from the course "Marketing Research and Analytics" taught in R from Prof. Deqiang Zou (邹德强) at [Fudan University](http://www.fdsm.fudan.edu.cn/en/) during Spring Semester 2017. 
+* **Market Analytics using R**: Notes from the course "Marketing Research and Analytics" from Prof. Deqiang Zou (邹德强) at [Fudan University](http://www.fdsm.fudan.edu.cn/en/) during Spring Semester 2017. 
 
 * **A (very) short introduction to R**: Notes for the [Introduction to R](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf) written by Paul Torfs & Claudia Brauer (2014).
 
