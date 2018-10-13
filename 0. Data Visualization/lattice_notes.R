@@ -131,6 +131,7 @@ plot(dp.uspe, split = c(1, 1, 2, 1))
 plot(dp.uspe.log, split = c(2, 1, 2, 1), newpage = FALSE)
 
 # Further resources
+http://lattice.r-forge.r-project.org/documentation.php
 
 # Online documentation
 help(lattice) 
