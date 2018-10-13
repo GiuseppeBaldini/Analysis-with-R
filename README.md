@@ -4,6 +4,8 @@ Collection of R code, notes and datasets sorted by topic.
 
 ## Topics
 
+[0. Data Visualization](https://github.com/GiuseppeBaldini/Practice-with-R/tree/master/0.%20Data%20Visualization)
+
 [1. Basic Analyses](https://github.com/GiuseppeBaldini/Practice-with-R/tree/master/1.%20Basic%20Analyses): [Data_Magazine.csv] [Data_Switching.csv]  
 
 [2. Linear Regression](https://github.com/GiuseppeBaldini/Practice-with-R/tree/master/2.%20Linear%20Regression): [Housing data.csv]  
